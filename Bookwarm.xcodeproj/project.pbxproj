@@ -13,6 +13,11 @@
 		C363009D2699C4D80031E34A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C363009C2699C4D80031E34A /* Preview Assets.xcassets */; };
 		C363009F2699C4D80031E34A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C363009E2699C4D80031E34A /* Persistence.swift */; };
 		C36300A22699C4D80031E34A /* Bookwarm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C36300A02699C4D80031E34A /* Bookwarm.xcdatamodeld */; };
+		C36300AB2699C5910031E34A /* Books+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36300A92699C5910031E34A /* Books+CoreDataClass.swift */; };
+		C36300AC2699C5910031E34A /* Books+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36300AA2699C5910031E34A /* Books+CoreDataProperties.swift */; };
+		C36300B12699CACF0031E34A /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36300B02699CACF0031E34A /* SheetView.swift */; };
+		C36300B32699CC5D0031E34A /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36300B22699CC5D0031E34A /* Constant.swift */; };
+		C36300B5269AF1AF0031E34A /* DetailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36300B4269AF1AF0031E34A /* DetailedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		C363009E2699C4D80031E34A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		C36300A12699C4D80031E34A /* Bookwarm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bookwarm.xcdatamodel; sourceTree = "<group>"; };
 		C36300A32699C4D80031E34A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C36300A92699C5910031E34A /* Books+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Books+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C36300AA2699C5910031E34A /* Books+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Books+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C36300B02699CACF0031E34A /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
+		C36300B22699CC5D0031E34A /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		C36300B4269AF1AF0031E34A /* DetailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,7 @@
 		C36300942699C4D50031E34A /* Bookwarm */ = {
 			isa = PBXGroup;
 			children = (
+				C36300AD2699C59F0031E34A /* Models */,
 				C36300952699C4D50031E34A /* BookwarmApp.swift */,
 				C36300972699C4D50031E34A /* ContentView.swift */,
 				C36300992699C4D80031E34A /* Assets.xcassets */,
@@ -63,6 +74,9 @@
 				C36300A32699C4D80031E34A /* Info.plist */,
 				C36300A02699C4D80031E34A /* Bookwarm.xcdatamodeld */,
 				C363009B2699C4D80031E34A /* Preview Content */,
+				C36300B02699CACF0031E34A /* SheetView.swift */,
+				C36300B22699CC5D0031E34A /* Constant.swift */,
+				C36300B4269AF1AF0031E34A /* DetailedView.swift */,
 			);
 			path = Bookwarm;
 			sourceTree = "<group>";
@@ -73,6 +87,15 @@
 				C363009C2699C4D80031E34A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C36300AD2699C59F0031E34A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C36300A92699C5910031E34A /* Books+CoreDataClass.swift */,
+				C36300AA2699C5910031E34A /* Books+CoreDataProperties.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,9 +167,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C36300AC2699C5910031E34A /* Books+CoreDataProperties.swift in Sources */,
+				C36300B5269AF1AF0031E34A /* DetailedView.swift in Sources */,
+				C36300B32699CC5D0031E34A /* Constant.swift in Sources */,
 				C363009F2699C4D80031E34A /* Persistence.swift in Sources */,
 				C36300982699C4D50031E34A /* ContentView.swift in Sources */,
+				C36300AB2699C5910031E34A /* Books+CoreDataClass.swift in Sources */,
 				C36300962699C4D50031E34A /* BookwarmApp.swift in Sources */,
+				C36300B12699CACF0031E34A /* SheetView.swift in Sources */,
 				C36300A22699C4D80031E34A /* Bookwarm.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
